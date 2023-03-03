@@ -18,5 +18,8 @@ LIMIT 5;
 Sorgu 3- customer tablosunda bulunan last_name sütununa göre azalan yapılan sıralamada store_id 1 olmak koşuluyla ilk 4 veriyi sıralayınız.
 Çözüm 3- SELECT last_name, store_id FROM customer
 WHERE store_id = 1
+ORDER BY last_name DESC
 LIMIT 4;
-<img width="513" alt="Ekran Resmi 2023-03-03 15 01 41" src="https://user-images.githubusercontent.com/116847744/222715378-7f03fa52-e276-4a3d-9599-2687086e8130.png">
+<img width="547" alt="Ekran Resmi 2023-03-03 15 04 50" src="https://user-images.githubusercontent.com/116847744/222716027-d2108126-85cf-4686-bd5f-97150589ddad.png">
+
+
